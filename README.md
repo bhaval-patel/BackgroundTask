@@ -7,9 +7,9 @@ In this iOS tutorial, we are going to understand <a href="https://www.spaceotech
 This new framework is used for tasks like cleaning a database, updating a machine learning model, or updating the displayed data for an app, and other deferrable tasks that are better done in the background. It makes efficient use of processing time and power, and run tasks like these when the device is in idle condition.
 
 BackgroundTasks Framework has two main task requests under BGTaskScheduler:
-# 1) BGAppRefreshTaskRequest: This is a request to launch an app in the background to execute a short refresh task.
+## 1) BGAppRefreshTaskRequest: This is a request to launch an app in the background to execute a short refresh task.
 
-# 2) BGProcessingTaskRequest: This is a request to launch an app in the background and execute a process that takes a longer time to complete.
+## 2) BGProcessingTaskRequest: This is a request to launch an app in the background and execute a process that takes a longer time to complete.
 
 BackgroundTasks can be used to perform various activities like database cleaning, uploading pictures to a server, syncing pictures in other devices, and many more.
 
