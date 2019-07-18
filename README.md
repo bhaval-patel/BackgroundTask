@@ -24,7 +24,7 @@ Below are the steps to follow in order to implement the above mentioned demo:
 5. Select “Background Fetch” and “Background Processing” from all background tasks.
 6. Add “BGTaskSchedulerPermittedIdentifiers” key in info.plist and add a task identifier array.
 
-# Note: The system only runs the tasks registered with identifiers on a whitelist of task identifiers.
+## Note: The system only runs the tasks registered with identifiers on a whitelist of task identifiers.
 
 7. import BackgroundTasks in AppDelegate.swift.
 
